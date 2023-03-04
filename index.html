@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Гонки на выживание</h1>
+    <div class="container">
+      <div class="cars_selection">
+        <h3>Выберите себе машину</h3>
+        <button id="civilian">Гражданская</button>
+        <button id="sport">Спортивная</button>
+        <button id="military">Военная</button>
+      </div>
+      <div class="settings hidden">
+        <h3>Можете улучшить 2 характеристики</h3>
+        <label for="fuel">Объем дополнительного топливного бака: </label>
+        <input type="number" name="fuel" id="fuel" /><br />
+        <label for="lowFuelConsumption">Коэффициент оптимизации расхода топлива: </label>
+        <input type="number" name="lowFuelConsumption" id="lowFuelConsumption" /><br />
+        <label for="durability">Коэффициент прочности автомобиля: </label>
+        <input type="number" name="durability" id="durability" /><br />
+        <label for="speed">Коэффициент увеличения скорости: </label>
+        <input type="number" name="speed" id="speed" /><br />
+        <br />
+        <br />
+        <label for="power_reserve">Запас хода: </label>
+        <input type="text" name="power_reserve" id="power_reserve" disabled />
+        <br />
+        <br />
+        <button class="save_car">Сохранить</button>
+      </div>
+      <div class="bots hidden">
+        <label for="choose_bots">Выберите кол-во ботов: </label>
+        <input type="number" value="0" name="choose_bots" id="choose_bots" />
+        <br />
+        <br />
+        <button class="save_bots">Сохранить</button>
+      </div>
+      <div class="table hidden">
+        <div class="table_heads">
+          <div>Имя</div>
+          <div>Запас хода</div>
+          <div>Прочность</div>
+          <div>Скорость</div>
+        </div>
+      </div>
+    </div>
+    <script src="task1.js"></script>
+  </body>
+</html>

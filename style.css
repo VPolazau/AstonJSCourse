@@ -1,0 +1,41 @@
+h1,
+.container {
+  margin: 15px;
+  padding: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.yellow {
+  background-color: rgba(255, 255, 0, 0.47);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_heads {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.table_heads div {
+  padding-left: 30px;
+  flex-basis: 25%;
+}
+
+.table_list {
+  display: flex;
+}
+
+.table_list div {
+  padding-left: 30px;
+  flex-basis: 25%;
+  border-bottom: 1px solid rgb(178, 178, 178);
+  margin-bottom: 25px;
+}
