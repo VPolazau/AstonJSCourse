@@ -26,7 +26,7 @@ class Service {
 }
 
 class View {
-  createItem(itemName = 'post', item) {
+  createItem(itemName, item) {
     switch (itemName) {
       case 'posts':
         this.createPost(item);
